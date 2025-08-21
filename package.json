@@ -1,0 +1,20 @@
+{
+  "name": "discord-vouch-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot for managing user vouches",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": ["discord", "bot", "vouch", "system"],
+  "author": "Your Name",
+  "license": "MIT"
+}
